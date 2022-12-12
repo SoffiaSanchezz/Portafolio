@@ -20,14 +20,13 @@ What things do you need to install the software and how to see it on the local d
 ```bash
   -cd "nombre de el lugar donde quieres la carpeta"
   -mk "nombre de la carpeta"
-  -git clone https://github.com/SoffiaSanchezz/Portafolio.git
-
-```
+  -git clone https://github.com/SoffiaSanchezz/Portafolio.git ```
 
 - Open the clone
 
 ```bash
 - Once the deployment is cloned, you open it in any browser so you can see the finished web page.```
+
 
 - Install Modules & Dependencies:
 
