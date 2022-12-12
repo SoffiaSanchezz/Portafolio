@@ -1,8 +1,10 @@
 import Particles from "react-tsparticles"
 import '../styles/particlas.css'
 
-const ParticleBackground = () => {
-    return (
+import React from 'react'
+
+const ParticlesBackground = () => {
+return (
         <Particles
             options={{
                 "particles": {
@@ -116,6 +118,6 @@ const ParticleBackground = () => {
             }}
         />
     );
-}
+};
 
-export default ParticleBackground
+export default ParticlesBackground
