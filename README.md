@@ -1,6 +1,7 @@
 # Portafolio ✨💼
 
-** Welcome to my Portfolio **
+>Welcome to my Portfolio 
+
 In this project, build a web page where my work and what I have done throughout my training will be reflected,In this portfolio you will see my skills
 In which you will find my information so that you do not hesitate to contact me
 
