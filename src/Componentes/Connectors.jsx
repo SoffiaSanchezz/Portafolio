@@ -14,7 +14,7 @@ return (
     <div className="idden fixed left-5 top-52 bottom-52 lg:flex flex-col items-center justify-center gap-4 z-30">
 
     <link to="/">
-        <div class="tooltip tooltip-right" data-tip="Home">
+        <div class="tooltip tooltip-right hover:text-violet-600 duration-500 w-15" data-tip="Home">
         <FcHome className="text-5x1 font-Sniglet"/>
         </div>
     </link>

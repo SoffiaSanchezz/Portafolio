@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing/>} />
-          <Route path='/about' element={<About/>} />
+          <Route path='/About' element={<About/>} />
           <Route path='/portafolio' element={<Portafolio/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<div>404 Not Found</div>}/>

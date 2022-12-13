@@ -8,6 +8,7 @@ import Calculadora from '../assets/Calculadora.png'
 
 
 const projects = [
+
     {
         image: Replica, 
         demo:'https://deezer-replica.vercel.app/', 
@@ -52,12 +53,12 @@ const Cards = () => {
                 projects.map(p => {
                     return(
                         <div key={p.image} className='cardAni w-60 h-fit z-40 hover:scale-110'>
-                            <div style={{height: '100 px'}} className='w-60 bg-white rounded-t-lg'>
+                            <div style={{height: '100 px'}} className='w-60  rounded-t-lg'>
                                 <img className='rounded-t-lg' src={p.image} alt="" />
                             </div>
                             <div className='bg-card w-60 flex rounded-b-lg'>
                                 <a href={p.demo} target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-white font-bold font-Sniglet'>DEMO</a>
-                                <a href={p.repo} target={'_blank'} className='rounded-br-lg w-1/2 h-12 flex justify-center items-center  text-white font-bold font-BlackA'>REPO</a>
+                                <a href={p.repo} target={'_blank'} className='rounded-br-lg w-1/2 h-12 flex justify-center items-center  text-white font-bold font-Sniglet'>REPO</a>
                             </div>
                         </div>
                     )
