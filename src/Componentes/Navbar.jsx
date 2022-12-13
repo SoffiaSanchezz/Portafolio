@@ -24,32 +24,32 @@ return (
     <div>
         {menu && (
 
-        <div className="fixed left-5 bottom-3 bg-white h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-4 z-20">
+        <div className="fixed bottom-1 left-5 bg-black h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
             
             <Link to="/" className="center flex-col">
-            <FcHome className="text-5xl" />
-            <span className="text-sm font-Sniglet">Home</span>
+            <FcHome className="text-5xl content-center w-10 " />
+            <span className="text-sm font-Sniglet text-center text-violet-600">Home</span>
             </Link>
 
-            <link className="center flex-col">
-            <FcSelfie className="text-5x1" />
-            <span className="text-sm font-Sniglet">About</span>
-            </link>
+            <Link to="/About" className="center flex-col">
+            <FcSelfie className="text-5x1 content-center w-10" />
+            <span className="text-sm font-Sniglet text-violet-600">About</span>
+            </Link>
 
-            <link className="center flex-col">
-                <FcBusiness className="text-5x1"/>
-                <span className="text-sm font-Sniglet">Projects</span>
-            </link>
+            <Link to="/portafolio"className="center flex-col">
+                <FcBusiness className="text-5x1 content-center w-10"/>
+                <span className="text-sm font-Sniglet text-violet-600">Projects</span>
+            </Link>
 
-            <link className="center flex-col">
-                <FcRules className="text-5x1" />
-                <span className="text-sm font-Sniglet">Perfil</span>
-            </link>
+            <Link to="/"className="center flex-col">
+                <FcRules className="text-5x1 content-center w-10" />
+                <span className="text-sm font-Sniglet text-violet-600">Perfil</span>
+            </Link>
 
-            <link className="center flex-col">
-                <FcBusinessContact className="text-5x1"/>
-                <span className="text-sm font-Sniglet">Contact</span>
-            </link>
+            <Link className="center flex-col">
+                <FcBusinessContact className="text-5x1 content-center w-10"/>
+                <span className="text-sm font-Sniglet text-violet-600">Contact</span>
+            </Link>
         </div>
         )}
     </div>
