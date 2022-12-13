@@ -32,22 +32,22 @@ return (
             </Link>
 
             <Link to="/About" className="center flex-col">
-            <FcSelfie className="text-5x1 content-center w-10" />
+            <FcSelfie className="text-5xl content-center w-10" />
             <span className="text-sm font-Sniglet text-violet-600">About</span>
             </Link>
 
             <Link to="/portafolio"className="center flex-col">
-                <FcBusiness className="text-5x1 content-center w-10"/>
+                <FcBusiness className="text-5xl content-center w-10"/>
                 <span className="text-sm font-Sniglet text-violet-600">Projects</span>
             </Link>
 
             <Link to="/"className="center flex-col">
-                <FcRules className="text-5x1 content-center w-10" />
+                <FcRules className="text-5xl content-center w-10" />
                 <span className="text-sm font-Sniglet text-violet-600">Perfil</span>
             </Link>
 
             <Link className="center flex-col">
-                <FcBusinessContact className="text-5x1 content-center w-10"/>
+                <FcBusinessContact className="text-5xl content-center w-10"/>
                 <span className="text-sm font-Sniglet text-violet-600">Contact</span>
             </Link>
         </div>
