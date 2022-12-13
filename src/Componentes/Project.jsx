@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react'
 import Replica from '../assets/Replica.png'
 import Spy from '../assets/Spy.png'
 import Shop from '../assets/Shop.png'
 import Te from '../assets/Te.png'
 import Tetris from '../assets/Tetris.png'
 import Calculadora from '../assets/Calculadora.png'
-
 
 const projects = [
 
@@ -46,10 +45,10 @@ const projects = [
     },
 ];
 
-const Cards = () => {
-    return (
-        <>
-            {
+const Project = () => {
+return (
+    <>
+    {
                 projects.map(p => {
                     return(
                         <div key={p.image} className='cardAni w-60 h-fit z-40 hover:scale-110'>
@@ -64,8 +63,8 @@ const Cards = () => {
                     )
                 })
             }
-        </> 
-    )
+    </>
+)
 }
 
-export default Cards
+export default Project
