@@ -1,7 +1,8 @@
 import React from 'react'
-import Cards from "../Componentes/Cards"
+import Cards from '../Componentes/Cards'
 import Navbar from '../Componentes/Navbar'
 import ParticleBackground from '../Componentes/ParticlesBackground'
+
 
 const Portafolio = () => {
     return (
