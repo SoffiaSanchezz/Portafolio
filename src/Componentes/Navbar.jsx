@@ -24,31 +24,31 @@ return (
     <div>
         {menu && (
 
-        <div className="fixed bottom-1 left-5 bg-black h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
+        <div className="fixed bottom-1 left-5 bg-trasparente h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
             
             <Link to="/" className="center flex-col">
-            <FcHome className="text-5xl content-center w-10 " />
+            <FcHome className="text-5xl content-center w-10" />
             <span className="text-sm font-Sniglet text-center text-violet-600">Home</span>
             </Link>
 
             <Link to="/About" className="center flex-col">
             <FcSelfie className="text-5xl content-center w-10" />
-            <span className="text-sm font-Sniglet text-violet-600">About</span>
+            <span className="text-sm font-Sniglet text-violet-600 content-center">About</span>
             </Link>
 
             <Link to="/portafolio"className="center flex-col">
-                <FcBusiness className="text-5xl content-center w-10"/>
-                <span className="text-sm font-Sniglet text-violet-600">Projects</span>
+                <FcBusiness className="text-5xl text-center w-10"/>
+                <span className="text-sm font-Sniglet text-violet-600 content-center">Projects</span>
             </Link>
 
-            <Link to="/"className="center flex-col">
+            <Link to="/Profile"className="center flex-col">
                 <FcRules className="text-5xl content-center w-10" />
-                <span className="text-sm font-Sniglet text-violet-600">Perfil</span>
+                <span className="text-sm font-Sniglet text-violet-600 content-center" >Perfil</span>
             </Link>
 
-            <Link className="center flex-col">
+            <Link to="/FindMe" className="center flex-col">
                 <FcBusinessContact className="text-5xl content-center w-10"/>
-                <span className="text-sm font-Sniglet text-violet-600">Contact</span>
+                <span className="text-sm font-Sniglet text-violet-600 content-center" >Contact</span>
             </Link>
         </div>
         )}
