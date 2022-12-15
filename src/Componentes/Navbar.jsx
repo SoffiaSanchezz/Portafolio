@@ -24,10 +24,10 @@ return (
     <div>
         {menu && (
 
-        <div className="fixed bottom-1 left-5 bg-black h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
+        <div className="fixed bottom-1 left-5 bg-trasparente h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
             
             <Link to="/" className="center flex-col">
-            <FcHome className="text-5xl content-center w-10 " />
+            <FcHome className="text-5xl content-center w-10" />
             <span className="text-sm font-Sniglet text-center text-violet-600">Home</span>
             </Link>
 
@@ -41,12 +41,12 @@ return (
                 <span className="text-sm font-Sniglet text-violet-600">Projects</span>
             </Link>
 
-            <Link to="/"className="center flex-col">
+            <Link to="/Profile"className="center flex-col">
                 <FcRules className="text-5xl content-center w-10" />
                 <span className="text-sm font-Sniglet text-violet-600">Perfil</span>
             </Link>
 
-            <Link className="center flex-col">
+            <Link to="/FindMe" className="center flex-col">
                 <FcBusinessContact className="text-5xl content-center w-10"/>
                 <span className="text-sm font-Sniglet text-violet-600">Contact</span>
             </Link>
