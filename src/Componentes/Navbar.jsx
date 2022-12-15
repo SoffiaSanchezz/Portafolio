@@ -33,22 +33,22 @@ return (
 
             <Link to="/About" className="center flex-col">
             <FcSelfie className="text-5xl content-center w-10" />
-            <span className="text-sm font-Sniglet text-violet-600">About</span>
+            <span className="text-sm font-Sniglet text-violet-600 content-center">About</span>
             </Link>
 
             <Link to="/portafolio"className="center flex-col">
-                <FcBusiness className="text-5xl content-center w-10"/>
-                <span className="text-sm font-Sniglet text-violet-600">Projects</span>
+                <FcBusiness className="text-5xl text-center w-10"/>
+                <span className="text-sm font-Sniglet text-violet-600 content-center">Projects</span>
             </Link>
 
             <Link to="/Profile"className="center flex-col">
                 <FcRules className="text-5xl content-center w-10" />
-                <span className="text-sm font-Sniglet text-violet-600">Perfil</span>
+                <span className="text-sm font-Sniglet text-violet-600 content-center" >Perfil</span>
             </Link>
 
             <Link to="/FindMe" className="center flex-col">
                 <FcBusinessContact className="text-5xl content-center w-10"/>
-                <span className="text-sm font-Sniglet text-violet-600">Contact</span>
+                <span className="text-sm font-Sniglet text-violet-600 content-center" >Contact</span>
             </Link>
         </div>
         )}
