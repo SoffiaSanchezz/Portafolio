@@ -26,7 +26,7 @@ What things do you need to install the software and how to see it on the local d
 - Open the clone
 
 ```bash
-- Once the deployment is cloned, you open it in any browser so you can see the finished web page.
+- Once the deployment is cloned, you open it any browser so you can see the finished web page.
 ```
 
 
@@ -46,7 +46,7 @@ What things do you need to install the software and how to see it on the local d
 - The deployment is ready to run
 
 ```bash
-  
+  https://portafolio-gamma-eight.vercel.app/
 ```
 
 ## built with 🛠️
