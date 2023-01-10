@@ -7,7 +7,7 @@ import Te from '../assets/Te.png'
 import Tetris from '../assets/Tetris.png'
 import Multi from '../assets/Multi.png'
 import Calculadora from '../assets/Calculadora.png'
-import Many from '../assets/cliente.png'
+import Many from '../assets/Cliente.png'
 import ParticlesBackground from './ParticlesBackground'
 import { DiGithub } from "react-icons/di"
 import { MdOutlineQueuePlayNext } from "react-icons/md"
