@@ -8,8 +8,8 @@ const Portafolio = () => {
     return (
         <>
             <Navbar/>
-            <div className='pt-20'>
-            <h2 className='font-BlackA text-center text-violet-600 text-6xl'>Proyectos</h2>
+            <div className='pt-10'>
+            <h2 className='font-BlackA text-center text-violet-600 text-8xl'>Proyectos</h2>
             </div>
             <div className='flex w-full justify-center'>
                 <div className='flex flex-wrap  gap-8 justify-center items-center sm:w-11/12'>
