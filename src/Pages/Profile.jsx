@@ -6,6 +6,11 @@ const Profile = () => {
 return (
     <>
     <Navbar/>
+    <nav>
+        <p>
+            Mi perfil
+        </p>
+    </nav>
     </>
 )
 }
