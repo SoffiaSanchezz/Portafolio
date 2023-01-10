@@ -1,24 +1,25 @@
 import React from 'react'
+import Cards from '../Componentes/Cards'
 import Navbar from '../Componentes/Navbar'
 import ParticleBackground from '../Componentes/ParticlesBackground'
-import Project from '../Componentes/Project'
 
 
 const Portafolio = () => {
     return (
         <>
             <Navbar/>
-            <div>
-            <h2 className='font-BlackA text-center text-violet-600 text-5xl'>Proyectos</h2>
+            <div className='pt-20'>
+            <h2 className='font-BlackA text-center text-violet-600 text-6xl'>Proyectos</h2>
             </div>
             <div className='flex w-full justify-center'>
-                <div className='flex flex-wrap gap-8 justify-center items-center pt-10 pb-6 sm:pt-36 w-11/12'>
+                <div className='flex flex-wrap  gap-8 justify-center items-center sm:w-11/12'>
                 
-                    <Project/>
+                    <Cards/>
                 </div>
             </div>
             <div className='pt-16'>
             </div>
+            <ParticleBackground />
         </>
     )
 }
