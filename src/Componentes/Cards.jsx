@@ -235,6 +235,17 @@ const Cards = () => {
           </div>
         </div>
       </ReactModal>
+
+      <ReactModal
+        isOpen={isOpen}
+        contentLabel="Tetris"
+        onRequestClose={() => setIsOpen(false)}
+      >
+        <div className='px-10'>
+          <h2 className='font-BlackA text-5xl text-center'>
+          </h2>
+          </div>
+      </ReactModal>
       <ParticlesBackground />
     </div>
 
