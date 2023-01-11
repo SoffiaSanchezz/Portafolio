@@ -48,6 +48,7 @@ const Cards = () => {
         <img src={Spy} alt='' className='hover:scale-125' />
       </button>
 
+      
       <button onClick={() => setIsOpen(true)}>
         <h2 className='font-Lobster text-3xl text-white'>
           Lan SabujCha
@@ -76,12 +77,8 @@ const Cards = () => {
         <img src={Multi} alt='' className='hover:scale-125' />
       </button>
 
-      <button onClick={() => setIsOpen(true)}>
-        <h2 className='font-Lobster text-3xl text-white'>
-          Many Makups
-        </h2>
-        <img src={Many} alt='' className='hover:scale-125' />
-      </button>
+
+
 
       <ReactModal
         isOpen={isOpen}
@@ -108,7 +105,7 @@ const Cards = () => {
 
       <ReactModal
         isOpen={isOpen}
-        contentLabel="Spy"
+        contentLabel="Spy2"
         onRequestClose={() => setIsOpen(false)}
       >
         <div className='px-10'>
@@ -130,7 +127,7 @@ const Cards = () => {
 
       <ReactModal
         isOpen={isOpen}
-        contentLabel="zShop"
+        contentLabel="3"
         onRequestClose={() => setIsOpen(false)}
       >
         <div className='px-10'>
@@ -150,6 +147,7 @@ const Cards = () => {
         </div>
       </ReactModal>
 
+      
       <ReactModal
         isOpen={isOpen}
         contentLabel="SabujCha"
@@ -237,30 +235,6 @@ const Cards = () => {
           </div>
         </div>
       </ReactModal>
-
-      <ReactModal
-        isOpen={isOpen}
-        contentLabel="Many"
-        onRequestClose={() => setIsOpen(false)}
-      >
-        <div className='px-10'>
-          <h2 className='font-BlackA text-5xl text-center'>
-          Many Makups Shop
-          </h2>
-          <br />
-          <div className='text-2xl flex flex-col justify-center text-center'> 
-          <p>Se realizo una landing page para el publico la cual es de una tienda online de una tienda la cual ofrece productos de maquillaje y todo tipo de accesorios con la informacion del lugar y dar una buena experiencia de usuario y aumentar ventas </p>
-          <img src={Many} alt="" className='scale-90'/>
-          </div>
-          <div className='flex flex-row justify-between	px-10 '>
-          <a href='https://proyecto-tetris.vercel.app/'>
-          <MdOutlineQueuePlayNext className='text-5xl'/> Demo </a>
-        <a href='https://github.com/SoffiaSanchezz/Proyecto-tetris.git'><DiGithub className='text-black text-6xl bottom-7'/>Github</a>
-          </div>
-        </div>
-      </ReactModal>
-
-
       <ParticlesBackground />
     </div>
 
